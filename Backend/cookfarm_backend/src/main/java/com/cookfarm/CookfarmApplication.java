@@ -1,0 +1,12 @@
+package com.cookfarm;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CookfarmApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(CookfarmApplication.class, args);
+    }
+}
