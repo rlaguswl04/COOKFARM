@@ -1,0 +1,40 @@
+### 🌱 COOKFARM_ 프로젝트 공통 무시 목록 ###
+
+# macOS & IDE 설정 파일
+.DS_Store
+.vscode/
+.idea/
+
+# --------------------------
+# 📦 Frontend (React)
+# --------------------------
+/Frontend/cookfarm_frontend/node_modules
+/Frontend/cookfarm_frontend/.env
+/Frontend/cookfarm_frontend/.pnp
+/Frontend/cookfarm_frontend/pnp.js
+/Frontend/cookfarm_frontend/coverage
+/Frontend/cookfarm_frontend/build
+/Frontend/cookfarm_frontend/npm-debug.log*
+/Frontend/cookfarm_frontend/yarn-debug.log*
+/Frontend/cookfarm_frontend/yarn-error.log*
+
+# --------------------------
+# 🛠️ Backend (Spring Boot)
+# --------------------------
+/Backend/cookfarm_backend/target
+/Backend/cookfarm_backend/.env
+/Backend/cookfarm_backend/.classpath
+/Backend/cookfarm_backend/.project
+/Backend/cookfarm_backend/.settings
+/Backend/cookfarm_backend/.factorypath
+/Backend/cookfarm_backend/.springBeans
+/Backend/cookfarm_backend/.sts4-cache
+/Backend/cookfarm_backend/nbproject
+/Backend/cookfarm_backend/nbbuild
+/Backend/cookfarm_backend/dist
+/Backend/cookfarm_backend/nbdist
+/Backend/cookfarm_backend/.nb-gradle
+
+# Gradle (만약 사용 중이면)
+/Backend/cookfarm_backend/.gradle
+/Backend/cookfarm_backend/build/
