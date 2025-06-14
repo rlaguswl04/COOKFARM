@@ -42,7 +42,6 @@ CREATE TABLE `ingredient` (
 
 LOCK TABLES `ingredient` WRITE;
 /*!40000 ALTER TABLE `ingredient` DISABLE KEYS */;
-INSERT INTO `ingredient` VALUES (9,'2025-06-10','유제품','2025-06-25',NULL,'권석현',1),(12,'2025-06-10','육류','2025-06-24',NULL,'석현이',1),(13,'2025-06-10','육류','2025-07-01',NULL,'긴시킨',1),(15,'2025-06-11','채소','2025-07-07','맛남\n','버섯',2),(16,'2025-06-10','육류','2025-06-10','권석현임','권석현',2),(17,'2025-06-11','육류','2025-06-29',NULL,'김현지',2),(18,'2025-06-10','유제품','2025-06-26','달달함','석현지',2);
 /*!40000 ALTER TABLE `ingredient` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -69,7 +68,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'asd@asd.com','asd','asdasd'),(2,'awf@fafwe.com','서켜니','dk03153');
+INSERT INTO `users` VALUES (1,'asd@asd.com','asd','asdasd');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -82,4 +81,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-06-15  1:46:33
+-- Dump completed on 2025-06-15  1:52:15
